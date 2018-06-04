@@ -1,0 +1,158 @@
+$color:#cc5252;
+$color1:#A2A2A2;
+$border-b: 3px solid #cc5252;
+
+#list_main{
+	
+	.list_siderbar{
+		width: 19%;
+		height: 1000px;
+		background-color: pink;
+		overflow:hidden;
+	}
+
+
+
+
+
+	.list_search{
+		width: 81%;	
+		//height:1000px;
+		.list_search_on{
+			height: 414px;
+			background-color: #ccc;
+
+		}
+
+
+
+		.list_search_tw{
+
+
+			.search_header{
+				height: 16px;
+				span{
+					margin: 0 30px;
+					line-height: 16px;	
+					color:#A2A2A2;
+					font-weight: 700;
+					font-size: 14px;
+					cursor:pointer;
+					float:left;
+					&:hover{
+						color:$color;
+						border-bottom: $border-b;
+					}
+
+
+				} 
+				span:nth-child(1){
+					color:$color;
+					border-bottom: $border-b;
+				}
+
+			}
+
+			.goodslist{
+		
+				display:block;
+				li{
+					&:hover{
+						    box-shadow: 1px 1px 8px 1px rgba(0,0,0,.2);
+							    .car{
+							    	opacity:1;
+
+							    }
+							    .love{
+							    	opacity:1;
+							    }
+					}
+					margin:10px 5px 20px 0px;
+					overflow:hidden;
+					width: 236px;
+					height: 450px;
+
+					float:left;
+					.goods_price{
+						padding: 20px 20px 10px;
+						line-height: 18px;
+						color: #333;
+						font-size: 18px;
+						.goods_sale{
+							    color: #999;
+							    font-size: 12px;
+							    float:right;
+						}
+					}
+					.goods_name{
+						font-size: 12px;
+						color: #333;
+						padding-left: 30px;
+						padding-bottom: 8px;
+					}
+					.goods_shop{
+						font-size: 12px;
+						color:#333;
+						padding-left: 30px;
+					}
+					.love{
+						display:inline-block;
+						padding:10px 20px;
+						margin:10px 0px 10px 20px;
+						font-size: 12px;
+						border: 1px solid #eee;
+						opacity:0;
+					}
+					.car{
+						display:inline-block;
+						padding:10px 20px;
+						margin:10px 0px 10px ;
+						font-size: 12px;
+						border: 1px solid #eee;
+						color:#CC5252;
+						opacity:0;
+						
+					}
+				}
+
+			}
+
+			.page{
+				text-align:center;
+				span{
+					display:inline-block;
+					padding:10px 10px 20px;
+					cursor:pointer;
+
+				}
+			}
+
+
+		}
+
+		
+		
+		.list_search_th{
+
+		}
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+.goods_price::before{
+	content:"￥";
+}
+
+
+}
+

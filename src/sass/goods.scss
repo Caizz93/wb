@@ -1,0 +1,174 @@
+#czz_goods_header{
+	height: 390px;
+	background-color: pink;
+
+}
+#czz_goods_main{
+	height: 696px;
+	.goods_main_on{
+		width: 503px;
+		.big_pic{
+			overflow:hidden;
+			width: 500px;
+			height: 500px;
+			border:1px solid #ccc;
+			cursor:crosshair;
+			.big_img{
+				width: 100%;
+				height: 100%;
+				//position:absolute;
+			}
+		}
+		.detail_pic{
+			text-align:center;
+			.s_img{
+				width: 78px;
+				height: 78px;
+				border:1px solid #ccc;
+				margin:20px 8px;
+			}
+		}
+	}
+
+
+
+	.goods_main_tw{
+		width: 550px;
+		margin-left: 15px;
+		.main_tw_p1{
+			font-size: 16px;
+			color: #333;
+			font-weight: 700;
+			line-height: 21px;
+			margin-bottom: 47px;
+			margin-top: 80px;
+			padding-left: 10px;
+		}
+		.main_tw_p2{
+			margin-top: 24px;
+			font-size: 12px;
+			color: #999;
+			line-height: 16px;
+			padding-left: 10px;
+			margin-bottom: 8px;
+		}
+		.main_tw_p3{
+			padding: 16px 0 20px 0;
+			background: #f1f1f1;
+			border-radius: 4px;
+			font-size: 12px;
+			color:#999;
+			padding-left: 10px;
+			.red_price{
+				font-weight: 700;
+				font-size: 24px;
+				color: #cc5252;
+			}
+
+		}
+		.main_tw_p4{
+			font-size: 12px;
+			color:#999;
+			padding-left: 10px;
+			line-height: 24px;
+			margin: 10px 0;
+		}
+		.main_tw_p5{
+			position:relative;
+			font-size: 12px;
+			color:#999;
+			padding-left: 10px;
+			line-height: 24px;
+			margin-bottom: 20px;
+			img{
+				border:2px solid #ccc;
+				margin:10px;
+			}
+			img:nth-child(1){
+				border:2px solid #333;
+
+			}
+		}
+		.main_tw_p6{
+			font-size: 12px;
+			color:#999;
+			padding-left: 10px;
+			line-height: 24px;
+			span{
+				color:#000;
+				text-align:center;
+				display:inline-block;
+				width: 20px;
+				border:1px solid #ccc;
+				vertical-align::middle;
+			}
+			input{
+				height: 24px;
+				vertical-align::middle;
+				@extend span
+			}
+			span:nth-child(1){
+				margin-left: 20px;
+				cursor:pointer;
+			}
+			span:nth-child(2){
+				width: 40px;
+
+			}
+			span:nth-child(3){
+				cursor:pointer;
+			}
+		}
+		.main_tw_p7{
+			margin-top: 40px;
+			.goods_buy{
+				display:inline-block;
+				width: 180px;
+				height: 44px;
+				line-height: 44px;
+				font-size: 14px;
+				color: #fff;
+				background-image: linear-gradient(-90deg,#cc5252 3%,#b32424 100%);
+				margin-left: 10px;
+				text-align: center;
+				font-weight: 700;
+				cursor: pointer;
+				 vertical-align::middle;
+			}
+			.add_car{
+				display:inline-block;
+				width: 120px;
+				height: 42px;
+				color: #666;
+				border: 1px solid #ccc;
+				text-align: center;
+				background-image: none;
+				background-color: #fff;
+				margin-left: 10px;
+				cursor: pointer;
+				vertical-align:middle;
+				line-height: 42px;
+			}
+		}
+
+
+	}
+
+
+
+
+
+}
+.before_price::before{
+	content:"万表价";
+	}
+
+.mark{
+	width: 16px;
+	height: 16px;
+	display:block;
+	background: url('../img/a.png') -304px -324px no-repeat;
+	position:absolute;
+	top: 57px;
+	left:189px;
+}

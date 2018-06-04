@@ -1,0 +1,217 @@
+h1 {
+  background: url(../img/logo-icon.png) no-repeat;
+  height: 124px;
+  margin-left: 134px;
+  margin-top: 40px;
+}
+
+#enter_main {
+  position: relative;
+  background-color: #000;
+  background-image: url("../img/enter_main.jpg");
+  background-size: 1300px 580px;
+  background-repeat: no-repeat;
+  background-position: -400px center;
+  height: 580px;
+}
+
+#enter_main #enter_form {
+  text-align: center;
+  width: 380px;
+  height: 460px;
+  position: absolute;
+  right: 120px;
+  top: 50px;
+  background-color: #fff;
+}
+
+#enter_main #enter_form input {
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  height: 45px;
+  width: 298px;
+  margin-bottom: 20px;
+}
+
+#enter_main #enter_form .enter_p1 {
+  font-size: 24px;
+  line-height: 96px;
+  color: #808080;
+}
+
+#enter_main #enter_form .enter_p1 span {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+#enter_main #enter_form .enter_p1 .enter_p1_s1 {
+  color: #CC5252;
+}
+
+#enter_main #enter_form #enter_inp3 {
+  width: 200px;
+}
+
+#enter_main #enter_form #enter_inp3_btn {
+  width: 94px;
+  color: #fff;
+  margin-left: 4px;
+  height: 45px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+#enter_main #enter_form #enter_submit {
+  background-color: #CC5252;
+  color: #fff;
+  width: 305px;
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+#enter_main #enter_form a {
+  display: block;
+  text-align: left;
+  color: #808080;
+  font-size: 14px;
+  padding-left: 43px;
+}
+
+#enter_main #enter_form .enter_p2 {
+  text-align: right;
+  padding-right: 43px;
+  color: #808080;
+  margin-top: 35px;
+}
+
+#enter_main #enter_form .enter_p2 span {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#enter_main #enter_form .enter_p1_s1 {
+  border-right: 1px solid #808080;
+}
+
+#enter_main #enter_form .enter_p2_s1 {
+  border-right: 1px solid #808080;
+}
+
+#enter_main #other_form {
+  display: none;
+  text-align: center;
+  width: 380px;
+  height: 460px;
+  position: absolute;
+  right: 120px;
+  top: 50px;
+  background-color: #fff;
+}
+
+#enter_main #other_form input {
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  height: 45px;
+  width: 298px;
+  margin-bottom: 20px;
+}
+
+#enter_main #other_form .enter_p1 {
+  font-size: 24px;
+  line-height: 96px;
+  color: #808080;
+}
+
+#enter_main #other_form .enter_p1 span {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+#enter_main #other_form .enter_p1 .enter_p1_s1 {
+  color: #CC5252;
+}
+
+#enter_main #other_form #other_submit {
+  display: inline-block;
+  line-height: 45px;
+  background-color: #CC5252;
+  color: #fff;
+  width: 305px;
+  height: 45px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#enter_main #other_form a {
+  display: block;
+  text-align: left;
+  color: #808080;
+  font-size: 14px;
+  padding-left: 43px;
+}
+
+#enter_main #other_form .enter_p2 {
+  text-align: right;
+  padding-right: 43px;
+  color: #808080;
+  margin-top: 102px;
+}
+
+#enter_main #other_form .enter_p2 span {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#enter_main #other_form .enter_p1_s1 {
+  border-right: 1px solid #808080;
+}
+
+#enter_main #other_form .enter_p2_s1 {
+  border-right: 1px solid #808080;
+}
+
+#enter_main #qrcode {
+  display: none;
+  text-align: center;
+  width: 380px;
+  height: 460px;
+  position: absolute;
+  right: 120px;
+  top: 50px;
+  background-color: #fff;
+}
+
+#enter_main #qrcode .enter_p1 {
+  font-size: 24px;
+  line-height: 96px;
+  color: #808080;
+}
+
+#enter_main #qrcode .enter_p1 span {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+#enter_main #qrcode .enter_p1 .enter_p1_s2 {
+  color: #CC5252;
+}
+
+#enter_main #qrcode .enter_p1_s1 {
+  border-right: 1px solid #808080;
+}
+
+#enter_main #qrcode .qrcode_img1 {
+  width: 185px;
+  height: 185px;
+  position: absolute;
+  left: 100px;
+  z-index: 1;
+}
+
+#enter_main #qrcode .qrcode_img2 {
+  width: 145px;
+  height: 185px;
+  position: absolute;
+  left: 200px;
+  opacity: 0;
+}

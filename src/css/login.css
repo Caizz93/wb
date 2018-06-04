@@ -1,0 +1,124 @@
+#czz_logo_content {
+  background-color: #FAFAFA;
+  padding: 0 127px;
+}
+
+#czz_logo_content .czz_logo h1 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 121px;
+  height: 75px;
+  margin: 30px 0;
+  background: url(../img/logo-icon.png) no-repeat;
+}
+
+#czz_logo_content .czz_logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#czz_logo_content .czz_main {
+  background-color: #fff;
+  height: 600px;
+  width: 990px;
+  text-align: center;
+}
+
+#czz_logo_content .czz_main h2 {
+  font-size: 30px;
+  line-height: 130px;
+}
+
+#czz_logo_content .czz_main input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding-left: 40px;
+  margin-bottom: 8px;
+}
+
+#czz_logo_content .czz_main #login3 {
+  width: 177px;
+  vertical-align: middle;
+}
+
+#czz_logo_content .czz_main #czz_btn_on {
+  background-color: #fff;
+  height: 40px;
+  width: 100px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  vertical-align: middle;
+  margin-bottom: 8px;
+}
+
+#czz_logo_content .czz_main #czz_btn_tw {
+  line-height: 40px;
+  background-color: #B32424;
+  width: 340px;
+  height: 40px;
+  border: 1px solid #B32424;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#czz_logo_content .czz_main p {
+  font-size: 12px;
+  color: red;
+  position: relative;
+}
+
+#czz_logo_content .czz_main .agreement {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  padding-bottom: 20px;
+}
+
+#czz_logo_content .czz_main .agreement a {
+  color: #000;
+}
+
+#czz_logo_content form i {
+  display: block;
+  position: absolute;
+  height: 20px;
+  width: 18px;
+}
+
+#czz_logo_content form .czz_l1 {
+  background: url("../img/a.png") -574px -21px;
+  left: 333px;
+  top: -42px;
+}
+
+#czz_logo_content form .czz_l2 {
+  background: url("../img/a.png") -278px -504px;
+  left: 333px;
+  top: -36px;
+}
+
+#czz_logo_content form .czz_l3 {
+  background: url("../img/a.png") -574px 0px;
+  left: 333px;
+  top: -36px;
+}
+
+#czz_logo_content form .czz_l4 {
+  background: url("../img/a.png") -572px -50px;
+  left: 333px;
+  top: -36px;
+}
+
+#czz_logo_content form .czz_l5 {
+  background: url("../img/a.png") -572px -50px;
+  left: 333px;
+  top: -36px;
+}
+
+#czz_logo_content form .yanzhengma {
+  position: absolute;
+  padding: 10px;
+}
